@@ -134,7 +134,6 @@ export default function App() {
         <div className="flex items-center gap-4">
           <div className="flex flex-col">
             <span className="text-lg md:text-xl font-black tracking-tighter">AEG<span className="text-brand-cyan">MEDIA</span></span>
-            <span className="text-[8px] text-white/40 tracking-[0.2em] font-bold uppercase -mt-1">Relatórios Estratégicos</span>
           </div>
         </div>
 
@@ -706,9 +705,8 @@ export default function App() {
                 transition={{ duration: 0.8 }}
                 className="inline-block animate-fade-in"
               >
-                <h2 className="text-brand-cyan text-sm sm:text-base font-bold tracking-[0.6em] uppercase mb-4 text-center">Apresentação de Performance</h2>
                 <h1 className="text-4xl sm:text-6xl md:text-8xl font-black italic tracking-tighter leading-[0.9] mb-4 uppercase text-center">
-                  RESULTADOS <br />
+                  PLANO DE AÇÃO <br />
                   <span className="text-brand-cyan cyan-glow">GOOGLE ADS</span> <br />
                   <span className="text-white">CONFIAUTO</span>
                 </h1>
