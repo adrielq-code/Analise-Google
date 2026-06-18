@@ -67,7 +67,7 @@ const SlideWrapper = ({ children, slideKey }: { children: React.ReactNode; slide
       animate={{ opacity: 1, x: 0 }}
       exit={{ opacity: 0, x: -20 }}
       transition={{ duration: 0.35, ease: "easeOut" }}
-      className="absolute inset-0 flex flex-col items-center justify-start md:justify-center p-4 md:py-6 md:px-12 overflow-y-auto"
+      className="absolute inset-0 flex flex-col items-center justify-start p-4 md:py-6 md:px-12 overflow-y-auto"
     >
       <div className="w-full max-w-5xl my-auto py-2 flex flex-col items-center justify-center">
         {children}
